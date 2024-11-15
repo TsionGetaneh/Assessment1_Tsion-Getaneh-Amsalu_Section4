@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family:'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#D0F0DF;
+    margin: 0 auto;
+    padding: 2%;
+      
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #138348;
+    margin: 0 auto;
+    padding: 2%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:limegreen;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 10px 30px;
+    padding: 2px 0;
+    
+}
+
+h2{
+    padding-left: 2%;
+    margin-left: 2%;
+
+}
+.product-list{
+    padding: 10px 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(250px, 1fr) );
+    gap: 3%;
+
+}
+
+.product{
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    overflow: hidden;  
+}
+.product img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 5%;
+
+
+}
+.product h2{
+    font-size: 2rem;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+
+}.product p{
+    padding: 10px;
+    font-size: 0.9rem;
+    color: #333;
+    display: flex;
+    justify-content: center;
+
+}
+.product .price{
+    font-weight: bold;
+    color: #4CAF50;
+
+
+}
+
