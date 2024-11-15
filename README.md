@@ -1,7 +1,7 @@
 # Assessment_1
 
-##Name: Tsion Getaneh
+## Name: Tsion Getaneh
 
-##ID: UGR/5106/15
+## ID: UGR/5106/15
 
-##Section: 4
+## Section: 4
